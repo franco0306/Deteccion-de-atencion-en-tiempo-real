@@ -1,0 +1,40 @@
+{
+  "model_path": "drive/MyDrive/UPAO/VIII/Deep Learning/Proyecto/modelos/atencion_mnv2_final_mejorado.keras",
+  "optimal_threshold": 0.5177164077758789,
+  "input_size": [
+    224,
+    224
+  ],
+  "preprocessing": "mobilenet_v2",
+  "metrics": {
+    "test_accuracy": 0.742168664932251,
+    "test_auc": 0.7606743574142456,
+    "test_precision": 0.7048457860946655,
+    "test_recall": 0.800000011920929,
+    "test_loss": 0.7916491627693176
+  },
+  "class_names": {
+    "0": "atento",
+    "1": "desatento"
+  },
+  "training_info": {
+    "backbone": "MobileNetV2",
+    "pretrained": "ImageNet",
+    "trainable_layers": 50,
+    "dropout": [
+      0.4,
+      0.3
+    ],
+    "l2_regularization": 0.001,
+    "augmentation": [
+      "RandomFlip(horizontal)",
+      "RandomRotation(0.08)",
+      "RandomZoom(0.15)",
+      "RandomContrast(0.15)",
+      "RandomBrightness(0.15)",
+      "GaussianNoise(0.02)"
+    ],
+    "epochs_baseline": 50,
+    "epochs_finetune": 40
+  }
+}
