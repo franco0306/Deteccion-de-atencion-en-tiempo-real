@@ -1,4 +1,8 @@
-tensorflow==2.20.0
-opencv-contrib-python==4.10.0.84
-numpy==1.26.4
-protobuf>=5.28.0,<6
+streamlit==1.29.0
+tensorflow==2.15.0
+opencv-python-headless==4.8.1.78
+numpy==1.24.3
+protobuf>=4.23.0,<5
+Pillow==10.1.0
+reportlab==4.0.7
+ultralytics==8.0.228
